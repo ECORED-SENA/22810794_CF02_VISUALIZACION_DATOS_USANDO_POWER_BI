@@ -17,10 +17,11 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema:
+        'Construcción y validación de soluciones de visualización de datos con Power BI',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar la comprensión de los procesos de conexión, preparación, análisis, visualización y validación de datos en Power BI, aplicando criterios técnicos y analíticos para la construcción de soluciones de analítica descriptiva.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,28 +29,30 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            'En una solución de analítica descriptiva, Power BI se utiliza principalmente para:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Almacenar datos transaccionales de aplicativos corporativos o CMR.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Ejecutar procesos ETL completos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Analizar y visualizar información para apoyar decisiones.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Reemplazar sistemas operativos.',
               esCorrecta: false,
             },
           ],
@@ -59,28 +62,31 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            'La correcta configuración inicial del entorno de Power BI permite:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Reducir la cantidad de visualizaciones para ser más eficiente y mejorar la experiencia de usuario.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Mejorar la coherencia, el rendimiento y el mantenimiento de la solución.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Evitar el uso de métricas que desborden el procesamiento.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Eliminar la necesidad de validación.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +95,31 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            'La preparación inicial de datos tiene como objetivo principal:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Garantizar consistencia y calidad de la información para el análisis.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Diseñar visualizaciones finales amigables enfocándose a la experiencia de usuario.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Construir <em>dashboards</em> estratégicos con gráficos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Publicar reportes y actualizarlo.',
               esCorrecta: false,
             },
           ],
@@ -119,29 +128,29 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: 'El perfilamiento de datos permite identificar:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Tipos de gráficos disponibles para mostrar informes más consolidados.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Errores de visualización.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Calidad, nulos, duplicados y rangos de los datos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Reglas de negocio.',
               esCorrecta: false,
             },
           ],
@@ -150,29 +159,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto: 'El lenguaje DAX se utiliza principalmente para:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Importar datos desde diferentes fuentes de información.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Diseñar interfaces gráficas más dinámicas y amigables.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Validar la usabilidad del reporte.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Definir métricas y cálculos analíticos sobre el modelo.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -180,29 +189,29 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: 'Una medida en DAX se caracteriza por:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Calcularse dinámicamente según el contexto.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Representar una fila específica calculada.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Definir relaciones entre tablas a través de sus campos claves y foráneos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Almacenarse como valor fijo en la tabla.',
               esCorrecta: false,
             },
           ],
@@ -211,29 +220,30 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: 'El contexto de filtro en DAX se refiere a:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'El orden de las filas en una tabla.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'El conjunto de filtros que afectan el cálculo de una métrica.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'El tipo de dato de una columna calculada.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'La estructura del modelo, según las reglas para Bases de datos dimensionales.',
               esCorrecta: false,
             },
           ],
@@ -242,30 +252,31 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: 'El descubrimiento de datos consiste principalmente en:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Crear gráficos sin análisis previo, como estrategia de metodologías ágiles.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Publicar reportes automáticamente a través de Power BI.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Validar licencias de Power BI.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Explorar e interpretar métricas para identificar patrones y comportamientos.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -273,20 +284,31 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: 'Un <em>dashboard</em> se define como:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Una base de datos analítica optimizada para realizar consultas rápidas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Un repositorio documental que almacena datos y archivos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Una interfaz visual orientada a comunicar indicadores clave.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Un conjunto de archivos de datos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +316,31 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+          texto: 'Un <em>dashboard</em> analítico se caracteriza por:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Mostrar solo indicadores diarios dejando a un lado datos históricos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Permitir exploración, comparación y segmentación de información.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'No permitir interacción y ser estático.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Ser exclusivamente estratégico y del nivel de decisiones.',
               esCorrecta: false,
             },
           ],
@@ -315,20 +349,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: 'La caja de herramientas de visualización incluye:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Gráficos, tablas, indicadores y segmentadores.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Únicamente gráficos nativos de Power BI Desktop.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reglas de negocio para implementar medidas y datos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Lenguajes de programación.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -336,19 +379,30 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: 'Las visualizaciones geográficas se utilizan cuando:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Se desea analizar valores numéricos sin contexto.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'La ubicación no aporta valor al análisis.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La pregunta analítica involucra territorio o localización.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Se limita a comparar promedios simples entre zonas geográficas.',
               esCorrecta: false,
             },
           ],
@@ -357,19 +411,31 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: 'Un error frecuente en visualización es:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Usar títulos claros que sinteticen contenido del reporte.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Priorizar claridad y comunicación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Utilizar gráficos sin relación con la pregunta analítica.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Limitar el número de colores que contenga una unidad gráfica.',
               esCorrecta: false,
             },
           ],
@@ -379,19 +445,29 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'Un reporte en Power BI se diferencia de un <em>dashboard</em> porque:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'No contiene gráficos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'No usa métricas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'No requiere validación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Permite más detalle y exploración en varias páginas.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -399,19 +475,189 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: 'La narrativa visual en un reporte busca:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Aumentar la cantidad de gráficos que contengan la misma información, pero en varias maneras para ser más claros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Guiar la interpretación de la información.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar filtros para mejorar experiencia de usuario.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reemplazar métricas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: 'La validación de integridad de datos se enfoca en:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La coherencia y exactitud de los valores mostrados.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'El diseño visual y mejorar la interactividad gráfica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La estética del tablero y manejo del tamaño de fuentes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La velocidad de carga.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: 'La validación de usabilidad evalúa principalmente:',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'El licenciamiento de la herramienta y las versiones de Power BI.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'El volumen de datos y la optimización del proceso de consultas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El tipo de gráfico y variabilidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La facilidad de comprensión e interacción del usuario.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            'En un reporte, el total de atenciones cambia incorrectamente al aplicar un filtro por sede. ¿Qué aspecto debe revisarse primero?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La definición de la métrica en DAX y su contexto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'El color y diseño del gráfico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'El título del reporte, así como la revisión de la interactividad entre diferentes páginas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El tamaño de la visualización y verificar el tiempo de carga.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            'Un usuario no logra identificar rápidamente los indicadores clave en un tablero. ¿Qué dimensión de validación está fallando?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Integridad de datos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Funcionamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Usabilidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Licenciamiento.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            'Un mapa se incluye en un <em>dashboards</em>, pero no aporta información relevante para la toma de decisiones. ¿Cuál fue el error principal?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Falta de datos que den información de ubicación como coordenadas o nombres de ciudades.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Uso de una visualización sin una pregunta analítica asociada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Exceso de métricas que impiden tener claridad de la información presentada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Falta de filtros.',
               esCorrecta: false,
             },
           ],
