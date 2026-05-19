@@ -6,13 +6,13 @@
       .titulo-principal__numero
         span 3
       h1 Introducción al lenguaje de consulta DAX
-    p.mb-5 En esta temática se introducen los fundamentos conceptuales de Data Analysis Expressions (DAX), como mecanismo para definir métricas, cálculos e indicadores dentro de una solución de visualización de datos en Power BI. Su comprensión permite transformar datos preparados en información analítica útil para la toma de decisiones.
+    p.mb-5 En esta temática se introducen los fundamentos conceptuales de #[i Data Analysis Expressions] (DAX), como mecanismo para definir métricas, cálculos e indicadores dentro de una solución de visualización de datos en Power BI. Su comprensión permite transformar datos preparados en información analítica útil para la toma de decisiones.
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/img52.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El propósito de este apartado es reconocer el papel de Data Analysis Expressions en la analítica descriptiva, su relación con el modelo de datos y su impacto directo en la construcción de tableros e indicadores alineados con los requerimientos del caso orientador.
+        p.mb-0 El propósito de este apartado es reconocer el papel de #[i Data Analysis Expressions] en la analítica descriptiva, su relación con el modelo de datos y su impacto directo en la construcción de tableros e indicadores alineados con los requerimientos del caso orientador.
     <!------------------------------------------ SUBTEMA 1 ------------------------------------------>
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Lenguaje analítico en soluciones de visualización
@@ -23,7 +23,7 @@
       .col-xl
         .box___style_1.fit___box_1(data-aos="fade-left").mb-3
           p.mb-0 #[i Data Analysis Expressions es un lenguaje] de expresiones diseñado para realizar cálculos sobre modelos de datos. A diferencia de los procesos de preparación inicial, que transforman y depuran la información antes de cargarla, este lenguaje actúa directamente sobre el modelo ya estructurado, respetando sus relaciones, dimensiones y reglas de negocio.
-        p.mb-0 Desde esta perspectiva, Data Analysis Expressions se convierte en el puente entre los datos preparados y la construcción de valor analítico dentro de una solución de inteligencia de negocios. 
+        p.mb-0 Desde esta perspectiva, #[i Data Analysis Expressions] se convierte en el puente entre los datos preparados y la construcción de valor analítico dentro de una solución de inteligencia de negocios. 
     p.mb-5 A continuación, se presentan sus principales funciones dentro de una solución de visualización:
     .row.align-items-center.justify-content-center.mb-5
       .col-xl.mb-4.mb-lg-0(data-aos="fade-right")
@@ -36,14 +36,14 @@
       .col-xl-auto.col-md-9(data-aos="fade-left")
         figure
           img(src="@/assets/curso/temas/img54.png", alt="").m-auto
-    p.mb-5 El uso adecuado de Data Analysis Expressions mejora la flexibilidad del análisis, fortalece la interpretación de los datos y aporta mayor precisión en la construcción de tableros.
+    p.mb-5 El uso adecuado de #[i Data Analysis Expressions] mejora la flexibilidad del análisis, fortalece la interpretación de los datos y aporta mayor precisión en la construcción de tableros.
     .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
         figure
           img(src="@/assets/curso/temas/img9.svg" style="max-width: 60px").m-auto
       .col
         h3 Relación entre modelo de datos y lenguaje de consulta
-    p.mb-5 El comportamiento de las expresiones en Data Analysis Expressions depende directamente de la calidad del modelo de datos. Un modelo bien definido facilita cálculos coherentes y confiables; en cambio, un modelo deficiente puede generar métricas ambiguas, duplicidades o resultados incorrectos. Antes de crear medidas y expresiones, es importante comprender qué elementos del modelo influyen en el comportamiento analítico.
+    p.mb-5 El comportamiento de las expresiones en #[i Data Analysis Expressions] depende directamente de la calidad del modelo de datos. Un modelo bien definido facilita cálculos coherentes y confiables; en cambio, un modelo deficiente puede generar métricas ambiguas, duplicidades o resultados incorrectos. Antes de crear medidas y expresiones, es importante comprender qué elementos del modelo influyen en el comportamiento analítico.
     .fondo___carrusel
       .px-5
         .row.align-items-center.mb-5
@@ -147,7 +147,7 @@
         figure
           img(src="@/assets/curso/temas/img9.svg" style="max-width: 60px").m-auto
       .col
-        h3 Medidas (Measure)
+        h3 Medidas (#[i Measure])
     p.mb-5 Las medidas representan cálculos dinámicos que se ejecutan en función del contexto del reporte. Esto significa que su resultado cambia automáticamente según los filtros, segmentaciones y selecciones que realice el usuario dentro del tablero.
     .row.justify-content-center.align-items-center.mb-5
       .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
@@ -250,7 +250,7 @@
       .col-xl
         .box___style_1(data-aos="fade-left").mb-3
           p.mb-0 Un caso frecuente de uso corresponde a la creación de dimensiones de tiempo. Estas tablas permiten organizar fechas por año, mes, trimestre, semana o día, facilitando análisis temporales consistentes y comparables. Además, este tipo de recurso resulta especialmente útil cuando las fuentes originales no incluyen una estructura temporal adecuada o cuando se requiere enriquecer el análisis con jerarquías de fechas.
-        p.mb-0 Comprender los tipos de cálculos disponibles en Data Analysis Expressions permite tomar decisiones de diseño más sólidas, optimizar el modelo de datos y construir soluciones analíticas más precisas, eficientes y alineadas con los objetivos del negocio.
+        p.mb-0 Comprender los tipos de cálculos disponibles en #[i Data Analysis Expressions] permite tomar decisiones de diseño más sólidas, optimizar el modelo de datos y construir soluciones analíticas más precisas, eficientes y alineadas con los objetivos del negocio.
     p.mb-5 Un ejemplo de este tipo de tablas es la creación de las dimensiones Tiempo.
     .row.justify-content-center
       .col-xl-10
@@ -292,7 +292,7 @@
         p El concepto de contexto es fundamental para comprender cómo se evalúan las expresiones en #[i Data Analysis Expressions]. Entender este principio no implica únicamente memorizar una definición técnica, sino comprender cómo Power BI calcula cada valor que presenta en una tabla, gráfico o indicador.
         .box___style_1(data-aos="fade-right").mb-3
           p.mb-0 Esta comprensión marca la diferencia entre construir un reporte estático y desarrollar una solución de inteligencia de negocios dinámica, consistente y eficiente. En términos prácticos, el contexto define qué datos están disponibles para una fórmula en el momento exacto en que se ejecuta.
-        p.mb-0 Sin contexto, una expresión en Data Analysis Expressions no tendría sentido, porque no podría determinar sobre qué filas operar, qué filtros respetar ni cómo responder a la interacción del usuario. Por esta razón, el contexto constituye el motor lógico que da comportamiento dinámico a los cálculos.
+        p.mb-0 Sin contexto, una expresión en #[i Data Analysis Expressions] no tendría sentido, porque no podría determinar sobre qué filas operar, qué filtros respetar ni cómo responder a la interacción del usuario. Por esta razón, el contexto constituye el motor lógico que da comportamiento dinámico a los cálculos.
       .col-xl-auto.col-md-9(data-aos="fade-left")
         figure
           img(src="@/assets/curso/temas/img70.png", alt="").m-auto
@@ -328,7 +328,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Un aspecto clave es que el contexto de fila no se propaga automáticamente a través de las relaciones entre tablas del modelo dimensional. Esto significa que la fórmula solo reconoce la información de la fila actual y no accede por sí sola a datos relacionados en otras tablas. Para consultar información externa a la fila actual, se requiere utilizar funciones de navegación como RELATED, que permiten recuperar datos desde tablas relacionadas.
-    p.mb-5 El contexto de fila se aplica cuando una expresión en Data Analysis Expressions necesita evaluar datos registro por registro dentro de una tabla, ya sea en columnas calculadas o mediante funciones iteradoras.
+    p.mb-5 El contexto de fila se aplica cuando una expresión en #[i Data Analysis Expressions] necesita evaluar datos registro por registro dentro de una tabla, ya sea en columnas calculadas o mediante funciones iteradoras.
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in")
       .py-3.py-md-4(titulo="Columnas calculadas")
         .row.justify-content-center.align-items-center
@@ -415,7 +415,7 @@
     .box___style_7.mb-5(data-aos="zoom-in")
       .row.align-items-center
         .col-xl.order-2.order-lg-1.fit___box_container
-          p.mb-0 Este flujo permite que al seleccionar una sede, una fecha o un servicio, el modelo filtre automáticamente los registros asociados en la tabla de hechos. Por el contrario, el filtro no fluye de manera inversa de forma predeterminada, salvo que se configure explícitamente un filtrado bidireccional. Desde el punto de vista del diseño del modelo, esta configuración debe evaluarse cuidadosamente, ya que puede generar ambigüedades, afectar el rendimiento y producir resultados inesperados.
+          p.mb-0 Este flujo permite que, al seleccionar una sede, una fecha o un servicio, el modelo filtre automáticamente los registros asociados en la tabla de hechos. Por el contrario, el filtro no fluye de manera inversa de forma predeterminada, salvo que se configure explícitamente un filtrado bidireccional. Desde el punto de vista del diseño del modelo, esta configuración debe evaluarse cuidadosamente, ya que puede generar ambigüedades, afectar el rendimiento y producir resultados inesperados.
         .col-xl-auto.order-1.order-lg-2
           figure
             img(src='@/assets/curso/temas/img83.png', alt='').m-auto
@@ -439,12 +439,12 @@
         .style___tarjeta_rob.h-100
           .p-4
             p.mb-0.text-center #[b La interacción con otros gráficos del tablero. ]
-    p.mb-0 Comprender este comportamiento permite diseñar indicadores más precisos, interpretar correctamente los resultados y evitar errores de lectura analítica. Dominar el contexto en Data Analysis Expressions constituye una base esencial para construir medidas confiables, responder preguntas de negocio con mayor precisión y aprovechar de forma eficiente el potencial analítico de Power BI. 
+    p.mb-0 Comprender este comportamiento permite diseñar indicadores más precisos, interpretar correctamente los resultados y evitar errores de lectura analítica. Dominar el contexto en #[i Data Analysis Expressions] constituye una base esencial para construir medidas confiables, responder preguntas de negocio con mayor precisión y aprovechar de forma eficiente el potencial analítico de Power BI. 
     <!------------------------------------------ SUBTEMA 4 ------------------------------------------>
     Separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.4 Funciones más representativas
-    p.mb-5 A continuación, se presenta una explicación clara sobre las principales funciones de Data Analysis Expressions, las cuales son fundamentales para comprender cómo se construyen métricas y análisis dinámicos en Microsoft Power BI.
+    p.mb-5 A continuación, se presenta una explicación clara sobre las principales funciones de #[i Data Analysis Expressions], las cuales son fundamentales para comprender cómo se construyen métricas y análisis dinámicos en Microsoft Power BI.
     figure(data-aos="zoom-in").mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/KgDhLEGii9Q" title="Funciones DAX para el análisis dinámico de datos en Microsoft Power BI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -538,7 +538,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-xl.mb-4.mb-lg-0
         .box___style_6.fit___box_6(data-aos="zoom-in")
-          p.mb-0 Las funciones de inteligencia de tiempo en DAX permiten comparar periodos de manera automática, por ejemplo, #[b este mes frente al mes anterior o un periodo actual frente al mismo periodo del año anterior]. Para que estas funciones operen correctamente, se requiere una tabla Dim_Tiempo marcada como #[b tabla de fechas] dentro del modelo.
+          p.mb-0 Las funciones de inteligencia de tiempo en DAX permiten comparar periodos de manera automática, por ejemplo, #[b este mes frente al mes anterior o un periodo actual frente al mismo periodo del año anterior]. Para que estas funciones operen correctamente, se requiere una tabla #[b Dim_Tiempo] marcada como #[b tabla de fechas] dentro del modelo.
       .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/img89.jpg', alt='').m-auto
@@ -611,23 +611,23 @@
                   tr.ajuste-color-tabla
                     td.ajuste-border-tabla.texto-left #[b SUM / COUNT]
                     td.ajuste-border-tabla.texto-left Agregación simple
-                    td.texto-left Cálculos básicos sobre una sola columna
+                    td.texto-left Cálculos básicos sobre una sola columna.
                   tr
                     td.ajuste-border-tabla.texto-left #[b CALCULATE]
                     td.ajuste-border-tabla.texto-left Modificador
-                    td.texto-left Siempre que se necesite cambiar los filtros del reporte
+                    td.texto-left Siempre que se necesite cambiar los filtros del reporte.
                   tr.ajuste-color-tabla
                     td.ajuste-border-tabla.texto-left #[b SUMX]
                     td.ajuste-border-tabla.texto-left Iterador
-                    td.texto-left Cuando el cálculo depende de una operación fila por fila
+                    td.texto-left Cuando el cálculo depende de una operación fila por fila.
                   tr
                     td.ajuste-border-tabla.texto-left #[b FILTER]
                     td.ajuste-border-tabla.texto-left Filtro
-                    td.texto-left Cuando se necesita una condición compleja dentro de un #[b CALCULATE]
+                    td.texto-left Cuando se necesita una condición compleja dentro de un #[b CALCULATE].
                   tr.ajuste-color-tabla
                     td.ajuste-border-tabla.texto-left #[b DIVIDE]
                     td.ajuste-border-tabla.texto-left Matemática
-                    td.texto-left Para realizar divisiones seguras (maneja errores de división por cero)lación para trae
+                    td.texto-left Para realizar divisiones seguras (maneja errores de división por cero).
         <!------------------------------------------ SUBTEMA 5 ------------------------------------------>
         Separador
         #t_3_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")

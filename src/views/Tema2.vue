@@ -25,7 +25,7 @@
         p En una solución de visualización desarrollada con Power BI, la fase de conexión y preparación de datos representa el vínculo entre lo definido conceptualmente (requerimientos, fuentes y modelo de datos) y los productos analíticos finales, como indicadores, reportes y tableros.
         br
         br
-        p.mb-0 En esta etapa se aplica el enfoque ETL (Extract, Transform, Load) desde una perspectiva práctica. Esto implica obtener la información desde distintas fuentes, depurarla, estructurarla y dejarla lista para el análisis, garantizando coherencia, calidad y consistencia en las medidas e indicadores. 
+        p.mb-0 En esta etapa se aplica el enfoque ETL (#[i Extract, Transform, Load]) desde una perspectiva práctica. Esto implica obtener la información desde distintas fuentes, depurarla, estructurarla y dejarla lista para el análisis, garantizando coherencia, calidad y consistencia en las medidas e indicadores. 
     p.mb-5 Una preparación inicial adecuada aporta beneficios concretos al proyecto:
     .fondo___carrusel
       .px-5
@@ -73,7 +73,7 @@
             img(src='@/assets/curso/temas/img37.png', alt='').m-auto
         .col-xl.fit___box_container
           h5 Caso orientador
-          p.mb-0 Una institución prestadora de servicios requiere analizar el comportamiento de la atención, considerando el volumen de atenciones, distribución por sede y servicio, y tiempos promedio de respuesta. Antes de iniciar la conexión de datos, es importante identificar claramente las fuentes disponibles y su función dentro del modelo analítico.
+          p.mb-0 Una institución prestadora de servicios requiere analizar el comportamiento de la atención, considerando el volumen de atenciones, distribución por sede y servicio y tiempos promedio de respuesta. Antes de iniciar la conexión de datos, es importante identificar claramente las fuentes disponibles y su función dentro del modelo analítico.
     .row.justify-content-center.mb-5
       .col-xl-4.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
         .box___style_3.h-100

@@ -301,7 +301,7 @@ export default {
     {
       termino: 'UX',
       significado:
-        'por sus siglas en inglés <em>User Experience</em>; es la forma en que una persona siente, percibe e interactúa con un producto, en este caso con los tableros de reportes.',
+        'por sus siglas en inglés, <em>User Experience</em>; es la forma en que una persona siente, percibe e interactúa con un producto, en este caso con los tableros de reportes.',
     },
     {
       termino: 'Validación de la solución',

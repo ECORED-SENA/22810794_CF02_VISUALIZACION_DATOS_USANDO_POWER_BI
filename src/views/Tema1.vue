@@ -13,7 +13,7 @@
           figure
             img(src='@/assets/curso/temas/img1.jpg', alt='').m-auto
         .col-xl.fit___box_container
-          p.mb-0 Power BI es una plataforma de Business Intelligence desarrollada para transformar datos estructurados en información comprensible y útil para el análisis. Su aporte no se limita a la creación de gráficos o paneles, sino que se integra al flujo completo de la analítica descriptiva: desde la preparación y modelado de datos hasta la interpretación de resultados para la toma de decisiones. Para comprender su alcance dentro de un proyecto de analítica, es importante reconocer cómo se articula con otras etapas del proceso. 
+          p.mb-0 Power BI es una plataforma de #[i Business Intelligence] desarrollada para transformar datos estructurados en información comprensible y útil para el análisis. Su aporte no se limita a la creación de gráficos o paneles, sino que se integra al flujo completo de la analítica descriptiva: desde la preparación y modelado de datos hasta la interpretación de resultados para la toma de decisiones. Para comprender su alcance dentro de un proyecto de analítica, es importante reconocer cómo se articula con otras etapas del proceso. 
     p.mb-5 A continuación, se presenta esta relación:
     .row.justify-content-center.mb-5
       .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -78,7 +78,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")(data-aos="fade-left")
           .row(titulo="Power BI Desktop").ajuste-cajaAcordion
             p.mb-3 Herramienta de autoría de Microsoft para escritorio. Permite conectar e importar datos, ejecutar procesos de transformación (ETL) con Power Query, modelar información con relaciones y medidas DAX, y construir reportes y visualizaciones. En soluciones intermedias y avanzadas, es el entorno central de diseño y desarrollo.
-          .row(titulo="<em>Power BI Service (Power BI Online)</em>").ajuste-cajaAcordion
+          .row(titulo="Power BI Service (Power BI <em>Online)</em>").ajuste-cajaAcordion
             p.mb-3 Plataforma en la nube bajo modelo #[i Software as a Service] (SaaS). Permite publicar reportes, compartir información, gestionar accesos, configurar actualizaciones automáticas mediante gateways y construir tableros consolidados. Es el entorno de distribución y administración del contenido analítico.
           .row(titulo="Power BI Mobile").ajuste-cajaAcordion
             p.mb-3 Aplicación orientada a la consulta de reportes e indicadores desde dispositivos móviles con iOS y Android. Facilita el acceso oportuno a la información y exige diseñar soluciones claras, legibles y adaptables desde el inicio del proyecto.
@@ -196,7 +196,7 @@
           span Ajustar opciones regionales y de formato
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/img23.jpg', alt='Captura de configuración de Power BI con opciones regionales y de formato relacionadas con idioma, fechas, números y entorno local. ').m-auto
-    p.mb-5 Esta configuración no es solamente estética, constituye una buena práctica profesional en proyectos de analítica y visualización.
+    p.mb-5 Esta configuración no es solamente estética; constituye una buena práctica profesional en proyectos de analítica y visualización.
     .box___style_4.mb-5(data-aos="flip-up")
       .row.align-items-center
         .col-xl-auto.mb-4.mb-lg-0(data-aos="fade-right")
