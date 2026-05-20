@@ -199,12 +199,7 @@
               .col-xl-6
                 figure
                   img(src='@/assets/curso/temas/img173.png', alt='' style="max-width: 500px").m-auto
-    p La mejora continua permite que el dashboard conserve su utilidad a lo largo del tiempo, se adapte a nuevos requerimientos y mantenga su valor como herramienta de análisis y apoyo a la toma de decisiones. El ciclo de validación y mejora consolida el proceso de construcción de soluciones de visualización de datos. Al verificar la integridad, el funcionamiento y la usabilidad de los reportes y tableros, se garantiza que la información presentada sea confiable, clara y útil para la toma de decisiones.
-    p.mb-5 En este video práctico de Power BI, se desarrolla un ejercicio guiado que permite explorar de manera sencilla el manejo de Power BI. 
-    figure(data-aos="zoom-in").mb-0
-      .video.mb-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption.fit___figcaption-video(data-aos="zoom-in") #[b Video]. Tutorial 2
+    p.mb-0 La mejora continua permite que el dashboard conserve su utilidad a lo largo del tiempo, se adapte a nuevos requerimientos y mantenga su valor como herramienta de análisis y apoyo a la toma de decisiones. El ciclo de validación y mejora consolida el proceso de construcción de soluciones de visualización de datos. Al verificar la integridad, el funcionamiento y la usabilidad de los reportes y tableros, se garantiza que la información presentada sea confiable, clara y útil para la toma de decisiones.
 
 </template>
 
