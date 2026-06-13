@@ -204,9 +204,9 @@
             img(src='@/assets/curso/temas/img24.svg', alt='' style="max-width: 85px").m-auto
         .col-xl.mb-4.mb-lg-0
           h4 Guía rápida: Descargar e instalar Microsoft Power BI Desktop
-          p.mb-0 En el siguiente documento podrá abrir y descargar un archivo PDF con la guía de descarga e instalación de Power BI en su computador. Allí también encontrará una descripción clara de los principales elementos de la aplicación.
+          p.mb-0 Haga clic en el botón de descarga para abrir o guardar el archivo PDF que contiene la guía completa de instalación de Power BI en su computador. La guía también incluye una descripción clara de los principales elementos de la aplicación para facilitar su uso.
         .col-xl-2
-          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_1_Guia_rapida_instalacion_elementos_PowerBI.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexos/Anexo_1_Guia_rapida_instalacion_elementos_PowerBI.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
     .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
