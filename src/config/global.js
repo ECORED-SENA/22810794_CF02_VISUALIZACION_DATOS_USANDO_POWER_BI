@@ -49,7 +49,6 @@ export default {
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
@@ -243,7 +242,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/22810025_CF02_DU.zip',
+        download: 'downloads/22810794_CF02_DU.zip',
       },
       {
         icono: 'fas fa-download',
